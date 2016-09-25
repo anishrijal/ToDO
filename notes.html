@@ -3,22 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Notes</title>
+    <script data-main="application/main" src ="library/require.js"></script>
+  <!-- </script> -->
   </head>
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="application/notes.css">
-  <body id = 'load'>
-    <div id='whole'>
-      <section>
-        <!--  this is text align center and the plus sign images acts as a button. -->
+  <body>
+    <section id='whole'>
         <div id='addNotes'>
           <b>Add a notes by clicking the plus sign<b><br/>
           <button id='noteAdd'>
-          <i class="fa fa-plus-circle" aria-hidden="true" ></i></button>
+            <i class="fa fa-plus-circle" aria-hidden="true" ></i></button>
         </div>
-        <!-- this div is for the notes that contains edit, delete button tittle and description, time created and edited.-->
-        <div id='container'>
-        </div>
-        <!-- this div is to add form with text box title and description.-->
+        <div id='container'></div>
         <div id= 'addNotesForm'>
             Title:<br />
             <input type='textbox' id ='title' ><br />
@@ -26,15 +23,6 @@
             <textarea id ='description' ></textarea><br />
             <button id = 'save'>SAVE</button>
         </div>
-
-      </section>
-    </div>
-    <script data-main="application/main" src ="library/require.js"></script>
-    <!-- <script>
-      require(['main'], function(){
-      })
-    </script> -->
+    </section>
   </body>
-
-
 </html>
