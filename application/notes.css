@@ -1,0 +1,64 @@
+/*#whole{
+  background-color: black
+}*/
+
+
+#addNotes {
+  text-align: center;
+  background-color: red;
+  padding-bottom: 4px;
+}
+
+.fa-pencil, .fa-trash-o, .fa-plus-circle{
+
+  pointer-events: none;
+
+}
+#container{
+  display:flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+
+}
+.allNotesSavedHere{
+  flex: 1;
+  margin: 2px;
+  background-color: lightblue;
+  border: 2px solid black;
+}
+
+
+#addNotesForm {
+  background-color: orange;
+  margin-left: 37%;
+  margin-right: 33.6%;
+  display: none;
+}
+
+
+#title{
+  border: 1px solid black;
+  width: 200px;
+  height: 25px;
+
+}
+
+#description{
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  resize: none;
+}
+
+/*.save{
+  background-color: lightblue;
+}*/
+
+#footer {
+    position : absolute;
+    bottom : 0;
+    /*height : 40px;
+    margin-top : 40px;*/
+    text-align: center;
+
+  }
