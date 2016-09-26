@@ -3,17 +3,17 @@ body {
 }
 
 #addNotes {
-  width:40%;
+  font-size: 20px;
+  width:50%;
   height: auto;
   margin-left: 32%;
   text-align: center;
-  background-color: red;
   padding-bottom: 4px;
 }
 
 
 .fa-plus-circle{
-  font-size: 20px;
+  font-size: 100px;
 }
 
 #noteAdd{
@@ -32,7 +32,7 @@ body {
 }
 .allNotesSavedHere{
   width: 200px;
-  height: auto;
+  height: 200px;
   margin: 5px;
   padding: 15px;
   background-image: url("../image/black.jpg");
@@ -47,15 +47,11 @@ body {
 
 #addNotesForm {
   position:absolute;
-  width: 39.5%;
+  width: 50%;
   text-align: center;
-  /*background: url("../image/note.jpg");*/
-
   background-color: orange;
   margin-left: 31.25%;
-  /*margin-right: 33.6%;*/
   display: none;
-  /*border-radius: 40px;*/
 }
 
 

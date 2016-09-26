@@ -6,9 +6,8 @@ define(function(){
 
     if(saveButton.textContent=='SAVE')
     {
-
-
       note.style.display = 'none';
+
       var allNotesHere = document.createElement('div');
       allNotesHere.setAttribute('class','allNotesSavedHere');
 
@@ -58,6 +57,7 @@ define(function(){
       allNotesHere.appendChild(editedDate);
       section.appendChild(allNotesHere);
       container.appendChild(allNotesHere);
+      
     }
     else if (saveButton.textContent=='EDIT')
       {
@@ -70,6 +70,7 @@ define(function(){
       }
     var storeLocal = document.getElementById('container').innerHTML;
     localStorage.setItem('storedValues', storeLocal);
+
     document.getElementById('save').innerHTML = 'SAVE';
 
   }

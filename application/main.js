@@ -10,7 +10,6 @@ require(['main','module/addNotes','module/saveAndEdit','module/editOrDelete'],
     window.addEventListener('load', load);
 
     (function load(){
-      console.log('does it even work');
       var storedValue =localStorage.getItem('storedValues');
       document.getElementById('container').innerHTML=storedValue;
     })();
