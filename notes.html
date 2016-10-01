@@ -4,25 +4,25 @@
     <meta charset="utf-8">
     <title>Notes</title>
     <script data-main="application/main" src ="library/require.js"></script>
-  <!-- </script> -->
   </head>
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="application/notes.css">
   <body>
     <section>
         <div id='addNotes'>
-          <b>Click the plus sign to add a note<b><br/>
+          <b><em>Click the plus sign to add a note<em><b><br/>
           <button id='noteAdd'>
             <i class="fa fa-plus-circle" aria-hidden="true" ></i></button>
         </div>
-        <div id='container'></div>
         <div id= 'addNotesForm'>
-            Title:<br />
-            <input type='textbox' id ='title' ><br />
-            Description:<br />
-            <textarea id ='description' ></textarea><br />
+            <em>Title<em><br />
+            <input type="text" id ='title' class='title' value="Title goes here"><br /><br />
+            <em>Description<em><br />
+            <textarea id = 'description' class ='description'> Enter the description here</textarea><br />
             <button id = 'save'>SAVE</button>
         </div>
+        <div id='container'></div>
+
     </section>
   </body>
 </html>
