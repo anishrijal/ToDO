@@ -1,4 +1,4 @@
-define(function(){
+define(function(event){
   displayForm.addEventListener('click', addingNotes);
   function addingNotes(event){
     note.style.display='block';
@@ -7,5 +7,5 @@ define(function(){
       titleForm.value = '';
       descriptionForm.value = '';
     }
-  }
+  };
 });
