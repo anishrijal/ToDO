@@ -1,4 +1,4 @@
-define(function(event){
+define(function(){
   displayForm.addEventListener('click', addingNotes);
   function addingNotes(event){
     note.style.display='block';

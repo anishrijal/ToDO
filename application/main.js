@@ -10,6 +10,6 @@ var noteCount =0;
 var currentNode;
 
 require(['module/localStorage','module/addANote','module/saveAndEdit','module/editOrDelete', ],
-  function(load){
+  function(load, addANote){
     window.addEventListener('load', load);
   });
