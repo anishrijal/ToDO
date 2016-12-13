@@ -1,6 +1,7 @@
 define(function(){
   saveButton.addEventListener('click', saveTheform);
   function saveTheform(event){
+
     if(saveButton.textContent=='SAVE')
     {
       note.style.display = 'none';
@@ -55,6 +56,7 @@ define(function(){
       editedDate.setAttribute('class','dateEdition');
       allNotesHere.appendChild(editedDate);
       section.appendChild(allNotesHere);
+
     }
     else if (saveButton.textContent=='EDIT')
       {
